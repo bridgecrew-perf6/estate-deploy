@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../apps/components/Header/Header'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <h2>Welcome to Blessed Programmer.</h2>
     </div>
   );
