@@ -1,12 +1,13 @@
 import { AnyAction } from 'redux';
 import { exampleActionType } from './actionTypes';
-type User = {
+
+export type User = {
 	id: string;
 	name: string;
 };
 
 const initialState = {
-	users: <Array<User>>[],
+	users: <Array<User>>[], // <Array>
 };
 
 export const exampleReducer = (state = initialState, action: AnyAction) => {

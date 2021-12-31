@@ -1,0 +1,30 @@
+@import '../../../styles/variable';
+
+.site_title {
+  background-color: $lighter_gray;
+	.container {
+		// max-width: 1250px;
+    padding: .8em 1.5em;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    div {
+      display: flex;
+      width: auto;
+    }
+    @media (max-width: 860px) {
+      padding: .5em 1em;
+    }
+    .menus {
+      list-style: none;
+      display: flex;
+      gap: .5em;
+      a {
+        &:hover {
+          color: dodgerblue;
+        }
+      }
+    }
+	}
+}

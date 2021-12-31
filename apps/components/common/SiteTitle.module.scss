@@ -1,0 +1,28 @@
+.site_title {
+  background-color: #ECEFF1;
+	.container {
+		// max-width: 1250px;
+    padding: .5em 1.5em;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    div {
+      display: flex;
+      width: auto;
+    }
+    @media (max-width: 860px) {
+      padding: 0 1em;
+    }
+    .menus {
+      list-style: none;
+      display: flex;
+      gap: 5px;
+      a {
+        &:hover {
+          color: dodgerblue;
+        }
+      }
+    }
+	}
+}
