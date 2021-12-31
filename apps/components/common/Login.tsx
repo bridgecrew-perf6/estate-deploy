@@ -1,7 +1,7 @@
+import useMediaQuery from 'apps/hooks/useMediaQuery';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { CgProfile } from 'react-icons/cg';
-import useMediaQuery from '../../hooks/useMediaQuery';
 
 import styles from './MenuItem.module.scss';
 
@@ -13,7 +13,7 @@ export const Login = () => {
 		router.push('/login');
 	};
 	return (
-		<div className={styles.menu_item} onClick={gotoLogin}>
+		<div className={styles.menu_item_left} onClick={gotoLogin}>
 			<CgProfile size={24} />
 			{isMobile}
 			{!isMobile && 'Login'}

@@ -1,9 +1,8 @@
-@import '../../../styles/variable';
+@import 'styles/variable';
 
 .site_title {
   background-color: $lighter_gray;
 	.container {
-		// max-width: 1250px;
     padding: .8em 1.5em;
 		margin: auto;
 		display: flex;
@@ -27,4 +26,29 @@
       }
     }
 	}
+  .mobile_menu {
+    height: 100vh;
+    width: 100%;
+    padding: 2em 1.5em;
+    z-index: 2;
+    background-color: $dark_gray;
+    position: fixed;
+    inset: 0;
+    text-align: right;
+    transition: all .5s;
+    button {
+      margin-left: auto;
+      position: relative;
+    }
+    li {
+      text-align: center;
+      list-style: none;
+      padding: 1em;
+      font-size: 18px;
+      font-weight: 600;
+      a:hover {
+        color: dodgerblue;
+      }
+    }
+  }
 }

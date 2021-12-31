@@ -22,7 +22,10 @@ export const DefaultLayout = ({
 			<Head>
 				<title>{title} </title>
 				<meta name='description' content={description || defaultDescription} />
-				<link rel='icon' href='/favicon.ico' />
+				<link
+					rel='icon'
+					href='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5LIco_RPbo-ctUQi00KA_gHaEn%26pid%3DApi&f=1'
+				/>
 			</Head>
 			<SiteTitle />
 			<MainNav />

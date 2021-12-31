@@ -10,11 +10,11 @@ export const SiteTitle = () => {
 	return (
 		<div className={styles.site_title}>
 			<div className={styles.container}>
-				<div className={styles.right}>
+				<div className={styles.left_menu}>
 					<Location />
 					<Language />
 				</div>
-				<div>
+				<div className={styles.right_menu}>
 					<Favorite />
 					<Login />
 				</div>

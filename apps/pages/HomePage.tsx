@@ -2,8 +2,11 @@ import React from 'react';
 import { DefaultLayout } from '../layout/default';
 
 export const HomePage = () => {
+  const title = 'Sweet Home || Find the perfect home for you';
+	const description =
+		'Sweet Home is the most popular real estate home finding service in Bangladesh.';
 	return (
-		<DefaultLayout title='Welcome to Sweet Home'>
+		<DefaultLayout title={title} description={description}>
 			<h2>Sweet Home</h2>
 			<h2>Hero Section</h2>
 			<h2>Slider 1</h2>

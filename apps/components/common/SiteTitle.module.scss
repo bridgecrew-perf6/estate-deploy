@@ -14,15 +14,12 @@
     @media (max-width: 860px) {
       padding: 0 1em;
     }
-    .menus {
-      list-style: none;
-      display: flex;
-      gap: 5px;
-      a {
-        &:hover {
-          color: dodgerblue;
-        }
+    > div > div {
+      cursor: pointer;
+      &:hover {
+        color: dodgerblue;
       }
     }
+
 	}
 }
