@@ -34,14 +34,14 @@ const responsive = {
 	},
 	mobile: {
 		breakpoint: { max: 464, min: 0 },
-		items: 1.2,
+		items: 1,
 		// partialVisibilityGutter: 5,
 	},
 };
 
 const MultiCarousel = ({ demoItem }: { demoItem: any }) => {
 	return (
-		<div className='endCategoriesSlider py-4'>
+		<div>
 			<Carousel
 				responsive={responsive}
 				infinite={true}
