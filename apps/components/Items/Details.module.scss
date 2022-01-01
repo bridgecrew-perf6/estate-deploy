@@ -38,8 +38,15 @@
 		justify-content: space-between;
 		flex-direction: column;
 		height: 100%;
-		h4 {
+
+	}
+}
+
+.details {
+		h3 {
 			margin: 0.5em 0;
 		}
-	}
+		p {
+			margin: 0.3em 0;
+		}
 }
