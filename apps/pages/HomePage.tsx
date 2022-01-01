@@ -1,3 +1,4 @@
+import Footer from 'apps/components/Footer/Footer';
 import MultiCarousel from 'apps/components/slider/MultiCarousel';
 import React from 'react';
 import { DefaultLayout } from '../layout/default';
@@ -144,8 +145,7 @@ export const HomePage = () => {
 				<h3>Newly listed homes in Scottsdale</h3>
 			</div>
 			<MultiCarousel demoItem={shortItem} />
-			<h2>Location menu</h2>
-			<h2>Footer</h2>
+			<Footer />
 		</DefaultLayout>
 	);
 };
