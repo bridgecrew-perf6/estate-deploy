@@ -24,21 +24,30 @@
           color: dodgerblue;
         }
       }
+      span {
+        cursor: pointer;
+        &:hover svg {
+          color: $dark_gray;
+          fill: $dark_gray;
+        }
+      }
     }
 	}
   .mobile_menu {
     height: 100vh;
     width: 100%;
     padding: 2em 1.5em;
-    z-index: 2;
+    z-index: 2377;
     background-color: $dark_gray;
     position: fixed;
     inset: 0;
     text-align: right;
     transition: all .5s;
-    button {
-      margin-left: auto;
-      position: relative;
+    span {
+      cursor: pointer;
+    }
+    svg:hover {
+      fill: $dark_gray;
     }
     li {
       text-align: center;

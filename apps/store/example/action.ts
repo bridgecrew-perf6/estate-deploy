@@ -1,9 +1,10 @@
+import { ThunkDispatch } from 'redux-thunk';
 import * as api from '../../api';
 import { exampleActionType } from './actionTypes';
 
 // if the action passes an parameter this function will have to write like this way
 // export const setUsers = (user) => async (dispatch) =>
-export const setUsers = async (dispatch) => {
+export const setUsers = async (dispatch: any) => {
 	try {
 		const res = await api.getUsers();
 		dispatch({

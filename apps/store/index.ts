@@ -16,14 +16,13 @@ import thunk, { ThunkDispatch, ThunkMiddleware } from 'redux-thunk';
 import { rootReducer, RootState } from './rootReducer';
 
 let store:
-	| (Store<any, AnyAction> & {
+	| Store<any, AnyAction> & {
 			dispatch: ThunkDispatch<
 				CombinedState<{ example: {} }>,
 				undefined,
 				Action<any>
 			>;
-	  })
-	| undefined;
+	  };
 
 const encryptor = encryptTransform({
 	secretKey: process.env.redux_SECRET || 'sxeeirjfdsk',
@@ -65,14 +64,14 @@ export const initializeStore = (preloadedState: {} | undefined) => {
 
 	// After navigating to a page with an initial Redux state, merge that state
 	// with the current state in the store, and create a new store
-	if (preloadedState && store) {
-		_store = initStore({
-			...store.getState(),
-			...preloadedState,
-		});
-		// Reset the current store
-		store = undefined;
-	}
+	// if (preloadedState && store) {
+	// 	_store = initStore({
+	// 		...store.getState(),
+	// 		...preloadedState,
+	// 	});
+	// 	// Reset the current store
+	// 	// store = undefined;
+	// }
 
 	// For SSG and SSR always create a new store
 	if (typeof window === 'undefined') return _store;
