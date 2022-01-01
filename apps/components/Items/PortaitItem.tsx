@@ -10,7 +10,7 @@ export const PortaitItem = () => {
 				alt=''
 			/>
 			<div>
-				<h2>Portait Home Item</h2>
+				<h2>Rocky Beach, CA</h2>
 				{/* <button>Call Now</button> */}
 				<div>
 					<button>View Homes</button>

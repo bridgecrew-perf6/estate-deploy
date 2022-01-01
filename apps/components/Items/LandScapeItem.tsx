@@ -10,7 +10,7 @@ export const LandScapeItem = () => {
 				alt=''
 			/>
 			<div>
-				<h2>LandScap Image Item</h2>
+				<h2>Baker Street, London</h2>
 				<div>
 					{/* <button>Call Now</button> */}
 					<button>View Homes</button>
