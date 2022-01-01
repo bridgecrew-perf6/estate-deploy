@@ -14,9 +14,9 @@ export const DetailsItem = () => {
 					<h4>(New) 3 hours ago</h4>
 				</div>
 			</div>
-			<div>
+			<div className={styles.details}>
 				<h3>$ 12900</h3>
-				<p>3 Beds, 2 Bath, Lawn, 2500 sq feet</p>
+				<p className={styles.highlights}>3 Beds, 2 Baths, Lawn, 2500 sq feet</p>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
 					consequuntur obcaecati tenetur.

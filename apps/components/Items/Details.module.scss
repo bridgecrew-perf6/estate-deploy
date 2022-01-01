@@ -48,5 +48,8 @@
 		}
 		p {
 			margin: 0.3em 0;
+			&.highlights {
+				font-weight: 600;
+			}
 		}
 }
