@@ -15,6 +15,10 @@ yarn.lock
 /.next/
 /out/
 
+# sitemap & robots
+/public/robots.txt
+/public/sitemap.xml
+
 # production
 /build
 
