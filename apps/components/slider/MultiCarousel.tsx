@@ -48,7 +48,7 @@ const MultiCarousel = ({ demoItem }: { demoItem: any }) => {
 				autoPlay={true}
 				itemClass='carousel-item-padding-20-px'
 				// centerMode={true}
-				autoPlaySpeed={1500}
+				autoPlaySpeed={2500}
 				ssr={true}
 				removeArrowOnDeviceType={['tablet', 'mobile']}
 			>
