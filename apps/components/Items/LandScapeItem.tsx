@@ -5,7 +5,7 @@ import styles from './LandScapeItem.module.scss';
 export const LandScapeItem = () => {
 	return (
 		<div className={styles.item}>
-			<img src='/public/home.jpg' alt='' />
+			<img src='/home.jpg' alt='' />
 			<div>
 				<h2>Baker Street, London</h2>
 				<div>
