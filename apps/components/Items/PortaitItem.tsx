@@ -6,7 +6,7 @@ export const PortaitItem = () => {
 	return (
 		<div className={styles.item}>
 			<img
-				src='https://cdn.pixabay.com/photo/2017/10/24/11/32/home-2884259_1280.png'
+				src='https://upload.wikimedia.org/wikipedia/commons/2/2f/The_House_in_the_Clouds_-_geograph.org.uk_-_1588452.jpg'
 				alt=''
 			/>
 			<div>
