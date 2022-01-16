@@ -22,16 +22,16 @@ const shortItem = [
 ];
 
 export const HomePage = () => {
-	const title = 'Sweet Home || Find the perfect home for you';
+	const title = 'Sweet Home || Discover a place you will love to live.';
 	const description =
 		'Sweet Home is the most popular real estate home finding service in Bangladesh.';
 	return (
 		<DefaultLayout title={title} description={description}>
 			<div className={styles.hero}>
 				<div>
-					<h2>
+					<h1>
 						Discover a Place <br /> you will love to live
-					</h2>
+					</h1>
 					<picture className='Picture__PictureContainer-sc-1exw3ow-1 gteZiU'>
 						<source
 							srcSet='https://www.trulia.com/images/app-shopping/homePage/hiDpiExtraLarge.webp'
